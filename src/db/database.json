@@ -1,0 +1,26 @@
+{
+  "proyectos":[
+    {
+      "nombre":"ejemplo",
+      "año":1900,
+      "foto1": "",
+      "foto2": "",
+      "foto3": "",
+      "resumen":"",
+      "descripcion":"",
+      "estilo":"ingles",
+      "id":1
+    },
+    {
+      "nombre":"ejemplo2",
+      "año":1901,
+      "foto1": "",
+      "foto2": "",
+      "foto3": "",
+      "resumen":"",
+      "descripcion":"",
+      "estilo":"frances",
+      "id":2
+    }
+  ]
+}
