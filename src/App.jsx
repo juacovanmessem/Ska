@@ -12,7 +12,9 @@ function App() {
 
   return (
     <>
+      <div>
       <Header/>
+      </div>
       <Frase/>
       <Destacados/>
       <Frase/>

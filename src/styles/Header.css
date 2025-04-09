@@ -1,0 +1,23 @@
+.containerheader {
+  background-color: white;
+ 
+  border-bottom-left-radius:  40vh ;
+  border-bottom-right-radius: 40vh;
+}
+
+.headerfototitulo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.botones{
+height: 25vh;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+}
