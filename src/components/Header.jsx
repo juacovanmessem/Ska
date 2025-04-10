@@ -7,6 +7,7 @@ import fondomarmol from "../assets/images/misc/texturamarmol.jpg"
 function Header() {
   return (
     <>
+      <div className='containerfondo'>
         <div className='containerheader'>
           <div className='headerfototitulo fuente-titulo hero-logo'>
             <img className='img-fluid logo' src={logo} alt="no hay"/>
@@ -30,10 +31,8 @@ function Header() {
             <div class="col-3 display-sm-none"></div>
           </div>
         </div>
-        <div className='radio imgprueba'>
-            <img className='img-fluid imgprueba' src={prueba1} alt="" />  
-        </div> 
-        
+      </div>
+      <div className='linea'></div>
     </>
   )
 }
