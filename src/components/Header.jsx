@@ -1,37 +1,39 @@
 import React from 'react'
 import '../styles/Header.css'
-import logo from "../assets/images/misc/logo.png"
-import fondo from "../assets/images/misc/fondo1.jpg"
+import logo from "../assets/images/misc/logo-removebg-preview.png"
+import prueba1 from "../assets/images/misc/pruebaimagen1.jpg"
+import fondomarmol from "../assets/images/misc/texturamarmol.jpg"
 
 function Header() {
   return (
     <>
-      <div className='containerheader' >
-        <div className='headerfototitulo fuente-titulo'>
-          <img className='img-fluid' src={logo} alt="no hay"/>
+        <div className='containerheader'>
+          <div className='headerfototitulo fuente-titulo hero-logo'>
+            <img className='img-fluid logo' src={logo} alt="no hay"/>
+          </div>
+          <div className='botones row g-0 d-flex justify-content-evenly hero-title fuente-letra2'>
+            <div class="col-4 text-end">
+              <a class="nav-link item1" aria-current="page" href="#">INICIO</a>
+            </div>
+            <div class="col-2 display-sm-none"></div>
+            <div class="col-2 display-sm-none"></div>
+            <div class="col-4 text-start">
+              <a class="nav-link item2" href="#">DESTACADOS</a>
+            </div>
+            <div class="col-3 display-sm-none"></div>
+            <div class="col-3 text-center">
+              <a class="nav-link item3" href="#">PROYECTOS</a>
+            </div>
+            <div class="col-3 text-center">
+              <a class="nav-link item4" href="#">CONTACTO</a>
+            </div>
+            <div class="col-3 display-sm-none"></div>
+          </div>
         </div>
-
-        <div className='botones row g-0 d-flex justify-content-evenly'>
-          <div class="col-3">
-            <a class="nav-link item1" aria-current="page" href="#">Home</a>
-          </div>
-          <div class="col-3 display-sm-none"></div>
-          <div class="col-3 display-sm-none"></div>
-          <div class="col-3">
-            <a class="nav-link item2" href="#">Features</a>
-          </div>
-          <div class="col-3 display-sm-none"></div>
-          <div class="col-3">
-            <a class="nav-link item3" href="#">Pricing</a>
-          </div>
-          <div class="col-3">
-            <a class="nav-link item4" href="#">Pricing1</a>
-          </div>
-          <div class="col-3 display-sm-none"></div>
+        <div className='radio imgprueba'>
+            <img className='img-fluid imgprueba' src={prueba1} alt="" />  
         </div> 
         
-        <div className='radio'>g</div>
-      </div>
     </>
   )
 }
