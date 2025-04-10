@@ -1,13 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
 
-:root {
-  font-family:  "Bad Script", cursive;
-  line-height: 1.5;
+.fuente-letra{
+  font-family: "Coming Soon", cursive;
   font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
 }
 
-.tipoL{
-  font-family:  "Bad Script", cursive;
+.fuente-titulo {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.fuente-letra2 {
+  font-family: "Cagliostro", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+}
+
+body {
+  background-image: image-set("./assets/images/misc/fondo2.jpg");
+}
 

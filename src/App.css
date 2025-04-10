@@ -1,4 +1,13 @@
 
+#root {
+  text-align: center;
+
+}
+
 .header{
   font-size: xx-large;
+}
+
+.tamaño {
+  height: 800px;
 }

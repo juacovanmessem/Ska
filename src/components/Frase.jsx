@@ -4,7 +4,7 @@ import '../styles/Frase.css'
 function Frase() {
   return (
     <>
-      <div>Frase</div>
+      <div className='hola'>Frase</div>
     </>
   )
 }
