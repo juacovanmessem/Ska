@@ -1,5 +1,23 @@
-.hola {
-  background-color: black;
+.fondobase {
+  background-image: image-set("../assets/images/misc/fondomarron2.png");
+  background-size: cover;
   height: 30vh;
-  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorfrase {
+  background-image: image-set("../assets/images/misc/fondopapel.png");
+  background-size: cover;
+  width: 80%;
+  height: 17vh;
+  box-shadow: 0px -1px 39px 14px rgba(0,0,0,0.85);
+  -webkit-box-shadow: 0px -1px 39px 14px rgba(0,0,0,0.85);
+  -moz-box-shadow: 0px -1px 39px 14px rgba(0,0,0,0.85);
+  position: relative;
+  
+  
 }

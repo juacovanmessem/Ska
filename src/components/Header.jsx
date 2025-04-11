@@ -13,26 +13,26 @@ function Header() {
             <img className='img-fluid logo' src={logo} alt="no hay"/>
           </div>
           <div className='botones row g-0 d-flex justify-content-evenly hero-title fuente-letra2'>
-            <div class="col-4 text-end">
-              <a class="nav-link item1" aria-current="page" href="#">INICIO</a>
+            <div className="col-4 text-end">
+              <a className="nav-link item1" aria-current="page" href="#">INICIO</a>
             </div>
-            <div class="col-2 display-sm-none"></div>
-            <div class="col-2 display-sm-none"></div>
-            <div class="col-4 text-start">
-              <a class="nav-link item2" href="#">DESTACADOS</a>
+            <div className="col-2 display-sm-none"></div>
+            <div className="col-2 display-sm-none"></div>
+            <div className="col-4 text-start">
+              <a className="nav-link item2" href="#">DESTACADOS</a>
             </div>
-            <div class="col-3 display-sm-none"></div>
-            <div class="col-3 text-center">
-              <a class="nav-link item3" href="#">PROYECTOS</a>
+            <div className="col-3 display-sm-none"></div>
+            <div className="col-3 text-center">
+              <a className="nav-link item3" href="#">PROYECTOS</a>
             </div>
-            <div class="col-3 text-center">
-              <a class="nav-link item4" href="#">CONTACTO</a>
+            <div className="col-3 text-center">
+              <a className="nav-link item4" href="#">CONTACTO</a>
             </div>
-            <div class="col-3 display-sm-none"></div>
+            <div className="col-3 display-sm-none"></div>
           </div>
         </div>
       </div>
-      <div className='linea'></div>
+      {/* <div className='linea'></div> */}
     </>
   )
 }

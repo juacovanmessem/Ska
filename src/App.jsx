@@ -15,9 +15,9 @@ function App() {
       <div className="tamaño">
       <Header/>
       </div>
-      <Frase/>
+      <Frase titulo="hola" frase="hola mundo" autor="pepito"/>
       <Destacados/>
-      <Frase/>
+      <Frase titulo="hola" frase="hola mundo" autor="pepito"/>
       <SobreMi/>
       <Footer/>
       <Contacto/>
