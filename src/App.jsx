@@ -15,9 +15,10 @@ function App() {
       <div className="tamaño">
       <Header/>
       </div>
-      <Frase titulo="hola" frase="hola mundo" autor="pepito"/>
+      <Frase /> 
+      {/* titulo="hola" frase="hola mundo" autor="pepito" */}
       <Destacados/>
-      <Frase titulo="hola" frase="hola mundo" autor="pepito"/>
+      <Frase/>
       <SobreMi/>
       <Footer/>
       <Contacto/>
