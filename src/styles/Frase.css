@@ -1,5 +1,29 @@
-.hola {
-  background-color: black;
-  height: 30vh;
-  margin-top: 30px;
+.fondobase {
+  background-color: rgb(255, 255, 255);
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.contenedorfrase {
+  background-image: image-set("../assets/images/misc/hojarota5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+  width: 95%;
+  height: 330px;
+}
+
+/* .frase {
+  font-size: 12px;
+  width: 50%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+} */
+

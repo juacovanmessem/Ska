@@ -1,0 +1,155 @@
+.sobremipadre {
+  /* background-image: image-set("../assets/images/misc/fondopapel.png");
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: 110%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* 👉 esta línea es la clave */
+  justify-content: center; 
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.titulosobremi {
+  background-image: image-set("../assets/images/misc/pintada1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+  height: 15vh;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+
+}
+
+.fotodescrp {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0);
+  height: 80%;
+  width: 90%;
+}
+
+.foto {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+
+}
+
+.descrp {
+  position: relative;
+  width: 60%;
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  background-color: rgba(254, 249, 244, 0.36); 
+  box-shadow: 0px 0px 20px rgba(255, 249, 249, 0.718);
+  overflow: hidden; /* importante para que no se desborde */
+}
+
+.descrp1 {
+  position: relative;
+  width: 60%;
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  background-color: rgba(254, 249, 244, 0.36); 
+  box-shadow: 0px 0px 20px rgba(255, 249, 249, 0.718);
+  overflow: hidden;
+}
+
+/* Línea horizontal esquina superior izquierda */
+.descrp::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;      /* largo horizontal */
+  height: 3px;      /* grosor */
+  background-color: black;
+}
+
+/* Línea vertical esquina superior izquierda */
+.descrp::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;       /* grosor */
+  height: 30px;     /* largo vertical */
+  background-color: black;
+}
+
+/* Línea horizontal esquina superior derecha */
+.descrp .corner-top-right-horizontal {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+
+/* Línea vertical esquina superior derecha */
+.descrp .corner-top-right-vertical {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 30px;
+  background-color: black;
+}
+
+/* Horizontal inferior izquierda */
+.descrp1 .corner-bottom-left-horizontal {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+
+/* Vertical inferior izquierda */
+.descrp1 .corner-bottom-left-vertical {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  height: 30px;
+  background-color: black;
+}
+
+/* Horizontal inferior derecha */
+.descrp1 .corner-bottom-right-horizontal {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+}
+
+/* Vertical inferior derecha */
+.descrp1 .corner-bottom-right-vertical {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 3px;
+  height: 30px;
+  background-color: black;
+}
