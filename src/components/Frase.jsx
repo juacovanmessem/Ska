@@ -11,8 +11,8 @@ function Frase({ titulo, frase, autor }) {
         <div className='contenedorfrase'>
           {/* <div className='frase text-center'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nihil ab ipsum et nostrum temporibus suscipit sunt eum! Facilis ab architecto quaerat corporis quas, ipsa minus pariatur repellendus asperiores molestias corrupti ipsum saepe o 
-          </div> */}
-          <img src={imagen} alt="hola" />
+          // </div> */}
+          {/* // <img src={imagen} alt="hola" /> */}
         </div>
       </section>
     </>

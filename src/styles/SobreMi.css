@@ -1,0 +1,42 @@
+.sobremipadre {
+  background-image: image-set("../assets/images/misc/fondopapel.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 110%;
+  width: 100%;
+  height: 1000px;
+  border-top: 1px solid rgb(252, 236, 17);
+  border-bottom: 1px solid rgb(252, 236, 17);
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.titulosobremi {
+height: 30px;
+background-color: greenyellow;
+position: relative;
+top: 25px;
+}
+
+.fotodescrp {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: black;
+  height: 80%;
+  width: 90%;
+}
+
+.foto {
+  width: 40%;
+  height: 40%;
+  display: flex;
+
+}
+
+.descrp {
+  width: 50%;
+  padding: 30px;
+  color: white;
+}

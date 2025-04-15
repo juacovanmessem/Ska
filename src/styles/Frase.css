@@ -7,13 +7,12 @@
 }
 
 .contenedorfrase {
-  /* background-image: image-set("../assets/images/misc/hojarota5.png"); */
+  background-image: image-set("../assets/images/misc/hojarota5.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   width: 95%;
   height: 330px;
-  
 }
 
 /* .frase {
