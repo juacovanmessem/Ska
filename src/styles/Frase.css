@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
   width: 95%;
   height: 330px;
 }
