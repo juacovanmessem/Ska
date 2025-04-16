@@ -15,10 +15,11 @@ function App() {
       <div className="tamaño">
       <Header/>
       </div>
-      <Frase /> 
-      {/* titulo="hola" frase="hola mundo" autor="pepito" */}
+      <Frase titulo="hola" frase="Pensar en arquitectura es esencialmente pensar un concepto, es decir, una idea rectora, signifi-cativa, frascendente y simbólica. Pero esa idea parte de una necesidad, una necesidad que no se limita a lo funcional, ni siquiera a lo simbólico o social, y por sobre todo, esa idea no surge uni-camente del arquitecto. Así concebida, la arquitectura es una búsqueda, una búsqueda conjun-ta, y el arquitecto es un guía, el guía responsable de llegar al lugar deseado" autor="Robert Venturi"/> 
+      
       <Destacados/>
-      <Frase/>
+      <Frase titulo="hola" frase=" espacio no tiene sentido sin luz. Un edificio habla a través del silencio de la percepción orquestada por la luz." autor="Steven Holl"/>
+      
       <SobreMi/>
       <Footer/>
       <Contacto/>
