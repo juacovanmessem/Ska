@@ -6,13 +6,14 @@ import imagen from "../assets/images/misc/hojarota5.png"
 function Frase({ titulo, frase, autor }) {
   return (
     <>
-      
       <section className='fondobase'>
-        <div className='contenedorfrase'>
-          {/* <div className='frase text-center'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nihil ab ipsum et nostrum temporibus suscipit sunt eum! Facilis ab architecto quaerat corporis quas, ipsa minus pariatur repellendus asperiores molestias corrupti ipsum saepe o 
-          // </div> */}
-          {/* // <img src={imagen} alt="hola" /> */}
+       <div class="quote">
+          <span class="left">❝</span>
+          <blockquote className='fuente-letra2'>
+            {frase}
+          </blockquote>
+          <small className='fuente-letra2'>{autor}</small>
+          <span class="right">❞</span>
         </div>
       </section>
     </>

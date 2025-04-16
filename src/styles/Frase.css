@@ -1,29 +1,63 @@
 .fondobase {
-  background-color: rgb(255, 255, 255);
-  height: 330px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedorfrase {
   background-image: image-set("../assets/images/misc/hojarota5.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-  width: 95%;
-  height: 330px;
-}
-
-/* .frase {
-  font-size: 12px;
-  width: 50%;
-  height: 4vh;
+  width: 100%;
+  height: 100vh;
+  filter: drop-shadow(5px 5px 10px rgba(81, 82, 6, 0.5));
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 40%);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 40%);
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  
-} */
+}
 
+.quote{
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid #503b10;
+  max-width: 70%;
+  position: relative;
+  margin-bottom: 20vh;
+}
+blockquote{
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 1px #555;
+  font-style: italic;
+  position: relative;
+  z-index: 20;
+}
+.left{
+  position: absolute;
+  top: -75px;
+  left: -20px;
+  width: 150px;
+  text-align: left;
+  z-index: 10;
+  font-size: 8rem;
+  color: #A7C82F;
+  line-height: 200px;
+}
+.right{
+  position: absolute;
+  bottom: -140px;
+  right: -20px;
+  width: 150px;
+  text-align: right;
+  z-index: 10;
+  font-size: 8rem;
+  color: #A7C82F;
+  line-height: 200px;
+}
+small{
+  font-size: 20px;
+  color: #336699;
+  position: relative;
+  z-index: 20;
+  
+   &:before{
+    content: "\2014 \0020";
+    width: 5px;
+  }
+}

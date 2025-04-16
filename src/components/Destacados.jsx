@@ -13,7 +13,7 @@ function Destacados() {
 
   return (
     <>
-      <div className="my-4 w-100 bg-cremita">
+      <div className="my-4 proyectomain bg-cremita">
         <h2 className="mb-4">Proyectos destacados</h2>
         <div className="accordion accordion-flush" id="accordionProyectos">
           {proyectos
