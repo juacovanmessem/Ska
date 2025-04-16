@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Overlock+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 
 .fuente-letra{
   font-family: "Coming Soon", cursive;
@@ -17,6 +18,12 @@
 .fuente-letra2 {
   font-family: "Cagliostro", sans-serif;
   font-weight: 350;
+  font-style: normal;
+}
+
+.fuente-letra3 {
+  font-family: "Amarante", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
