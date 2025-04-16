@@ -4,7 +4,6 @@ import Destacados from "./components/Destacados.jsx"
 import SobreMi from "./components/SobreMi.jsx"
 import Footer from "./components/Footer.jsx"
 import Contacto from "./components/Contacto.jsx"
-import Carrusel from "./components/Carrusel.jsx"
 import Proyectos from "./components/Proyectos.jsx"
 import './App.css'
 
@@ -23,7 +22,6 @@ function App() {
       <SobreMi/>
       <Footer/>
       <Contacto/>
-      <Carrusel/>
       <Proyectos/>
     </>
   )

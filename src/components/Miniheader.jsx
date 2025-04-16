@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/Carrusel.css'
+import '../styles/Miniheader.css'
 
 function Carrusel() {
   return (
     <>
-      <div>Carrusel</div>
+      <div>Miniheader</div>
     </>
   )
 }
