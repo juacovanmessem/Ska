@@ -1,0 +1,96 @@
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  border: none;
+  box-shadow: none; 
+}
+
+.accordion-button:focus{
+  border: none;
+  box-shadow: none; 
+}
+
+.img-dest{
+  height: 350px;
+  max-width: 33%;
+  padding: 7px;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 1250px) {
+  .img-dest{
+    max-width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  .img-dest{
+    max-width: 100%;
+  }
+}
+
+
+
+.bg-cremita{
+  background-color: #f8f0e7;
+}
+
+#bg1{
+  background-color: #f8f0e7;
+}
+#bg2{
+  background-color: #f5ebdf;
+}
+#bg3{
+  background-color: #f2e6d7;
+}
+#bg4{
+  background-color: #efe0cf;
+}
+#bg5{
+  background-color: #ebdbc7;
+}
+#bg6{
+  background-color: #e8d6bf;
+}
+#bg7{
+  background-color: #e5d1b7;
+}
+#bg8{
+  background-color: #dfc6a7;
+}
+#bg9{
+  background-color: #dcc19f;
+}
+#bg10{
+  background-color: #d8bc98;
+}
+#bg11{
+  background-color: #d5b790;
+}
+#bg12{
+  background-color: #d2b188;
+}
+#bg13{
+  background-color: #cfac80;
+}
+#bg14{
+  background-color: #cca778;
+}
+#bg15{
+  background-color: #c9a270;
+}
+#bg16{
+  background-color: #c59d68;
+}
+#bg17{
+  background-color: #c29760;
+}
+#bg18{
+  background-color: #bf9258;
+}
+#bg19{
+  background-color: #bc8d50;
+}
+
