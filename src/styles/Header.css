@@ -36,32 +36,27 @@
 }
 
 .headerfototitulo {
-  position: relative;
+  /* position: relative;
   bottom: 35px;
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 5vh; */
+
+  display: flex;
+  justify-content: center;
 }
 
 .botones{
   position: relative;
-  bottom: 140px;
-  height: 25vh;
+  bottom: 80px;
+  height: 25vh; 
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .logo {
   width: 240px;
   height: 280px;
   padding-top:25px;
-}
-
-.linea {
-  height: 34px;
-  background-color: #281f18;
-  background-image: image-set("../assets/images/misc/fondomarron2.png");
-  -webkit-box-shadow: 0px 0px 31px 4px #2c231c;
-  -moz-box-shadow: 0px 0px 31px 4px #281f18;
-  box-shadow: 0px 0px 31px 4px #38312c;
-  
 }
 
 .hero-logo{
@@ -88,7 +83,7 @@
 } 
 }
 
-.item1 {
+.item {
   color: rgb(0, 0, 0);
   /* font-weight: 500px; */
   background: none;
@@ -114,13 +109,6 @@
   
 }
 
-.item2 {
-  color: rgb(0, 0, 0);
-  /* font-weight: 500px; */
-  background: none;
-  outline: none;
-  border: none;
-}
 
 .item2::after {
   content: '';
@@ -138,14 +126,6 @@
   background-color: #A7C82F;
   display: block ;
   
-}
-
-.item3 {
-  color: rgb(0, 0, 0);
-  /* font-weight: 500px; */
-  background: none;
-  outline: none;
-  border: none;
 }
 
 .item3::after {
@@ -166,14 +146,6 @@
   
 }
 
-.item4 {
-  color: rgb(0, 0, 0);
-  /* font-weight: 500px; */
-  background: none;
-  outline: none;
-  border: none;
-}
-
 .item4::after {
   content: '';
   height: 2px;
@@ -190,4 +162,33 @@
   background-color: #A7C82F;
   display: block ;
   
+}
+
+.texto1{
+  text-align: end;
+}
+.texto2{
+  text-align: start;
+}
+
+@media (max-width: 748px) {
+  .texto2{
+    text-align: center;
+  }
+  .texto1{
+    text-align: center;
+    margin-top: 5vh;
+    padding-bottom: 0;
+  }
+  .logo{
+    width: 140px;
+    height: 180px;
+  }
+  .none{
+    display: none;
+  }
+  .botones{
+    bottom: 40px;
+    height: 20vh; 
+  }
 }

@@ -7,7 +7,7 @@ function Footer() {
     <>
       <div className="footer">
         <p className="text-center footer-top fuente-letra2"> 
-          <a href="#" className="text link"> 
+          <a href="/" className="text link"> 
             <button>
               <div className="text link">
                 <span>Volver</span>
