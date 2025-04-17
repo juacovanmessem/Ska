@@ -20,16 +20,16 @@ function SobreMi() {
           </div>
 
           <div className='descrp fuente-letra2'>
-          <span className="corner-top-right-horizontal"></span>
-          <span className="corner-top-right-vertical"></span>
+            <span className="corner-top-right-horizontal"></span>
+            <span className="corner-top-right-vertical"></span>
 
             <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga perferendis sapiente officia necessitatibus et non. Nam quae neque modi illum iusto! Totam, soluta nemo odio similique quod eligendi, itaque consectetur, tempore rerum deserunt quo suscipit eaque nobis est error. Ipsam quas at doloribus maxime error nisi odit, vero dicta magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam doloremque consectetur et exercitationem natus, odio eligendi fugit deleniti quis vitae ipsa repudiandae doloribus recusandae qui autem suscipit animi asperiores officiis adipisci totam sit iure, nam quas? A modi, perspiciatis alias corporis, atque distinctio doloribus eligendi dolore quo facere quos accusamus corrupti labore odit voluptatem animi quibusdam magnam facilis expedita! Vitae.</span>
           </div>
         </div>
         
-        <div className='fotodescrp'>
-          <div className='d-flex justify-content-center'> 
-            <img className='foto' src={persona} alt="" /> 
+        <div className='fotodescrp fotodescrp1'>
+          <div className='d-flex justify-content-center '> 
+            <img className='foto none' src={persona} alt="" /> 
           </div>
 
           <div className='descrp1 fuente-letra2'>
