@@ -13,7 +13,7 @@ function ModalProy({ proyecto}) {
     <>
       <Button variant="link" onClick={handleShow} className="p-0 border-0 w-100 h-100">
         <img
-          src={foto1}
+          src={`/imgs/${foto1}`}
           alt={`${nombre}`}
           className="masonry-img"
           decoding="async"
@@ -37,7 +37,7 @@ function ModalProy({ proyecto}) {
                   <div className="col">
                     <img
                       key={idx}
-                      src={foto}
+                      src={`/imgs/${foto}`}
                       alt={`${nombre} imagen ampliada ${idx + 1}`}
                       className="modal-img"
                       style={{ cursor: 'zoom-in', width: '100%', borderRadius: '0.5rem' }}
@@ -59,7 +59,7 @@ function ModalProy({ proyecto}) {
                   <div className="col mt-3">
                     <img
                       key={idx}
-                      src={foto}
+                      src={`/imgs/${foto}`}
                       alt={`${nombre} imagen ampliada ${idx + 1}`}
                       className="modal-img"
                       style={{ cursor: 'zoom-in', width: '100%', borderRadius: '0.5rem' }}
