@@ -1,0 +1,38 @@
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 10px;
+  gap: 16px;
+  width: 100%;
+}
+
+.masonry-brick {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alturas simuladas mediante span */
+.brick-small {
+  grid-row-end: span 10;
+}
+
+.brick-medium {
+  grid-row-end: span 14;
+}
+
+.brick-large {
+  grid-row-end: span 18;
+}
+
+.masonry-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.masonry-img:hover {
+  transform: scale(1.02);
+}
