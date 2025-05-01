@@ -1,89 +1,149 @@
 {
   "proyectos":[
     {
-      "nombre":"casa tafi",
+      "nombre":"Jardinería Vertical",
       "año":1900,
-      "foto1": "Jardinería-vertical-2024-002.jpg",
-      "foto2": "Jardinería-vertical-2024-002.jpg",
-      "foto3": "Jardinería-vertical-2024-002.jpg",
+      "foto1": "Jardinería vertical 2024 001.jpg",
+      "foto2": "Jardinería vertical 2024 002.jpg",
+      "foto3": "",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum",
       "destacar": true,
       "id":1
     },
     {
-      "nombre":"viviendas roca 1",
+      "nombre":"John Arany",
       "año":1901,
-      "foto1": "https://picsum.photos/1200/88090000",
-      "foto2": "",
-      "foto3": "",
-      "descripcion":"",
+      "foto1": "John Arany.jpg",
+      "foto2": "John Arany a.jpg",
+      "foto3": "John Arany a2.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum",
       "destacar": true,
       "id":2
     },
     {
       
-      "nombre":"viviendas roca 10",
+      "nombre":"Montaña Rústico",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/780",
+      "foto1": "Montaña Rústico.jpg",
+      "foto2": "Montaña Rústico a.jpg",
+      "foto3": "Montaña Rústico a2.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":3
     },
     {
       
-      "nombre":"viviendas roca 11",
+      "nombre":"Racional",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/780",
+      "foto1": "Racional a.jpg",
+      "foto2": "Racional a1.jpg",
+      "foto3": "Racional a002.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":4
     },
     {
       
-      "nombre":"viviendas roca 12",
+      "nombre":"Racional Americano",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/780",
+      "foto1": "Racional Americano.jpg",
+      "foto2": "Racional Americano a.jpg",
+      "foto3": "Racional Americano a6.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":5
     },
     {
       
-      "nombre":"viviendas roca 13",
+      "nombre":"Racional Contemporaneo Montaña",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/780",
+      "foto1": "Racional Contemporaneo Montaña.jpg",
+      "foto2": "Racional Contemporaneo Montaña a.jpg",
+      "foto3": "Racional Contemporaneo Montaña a6.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":6
     },
     {
     
-      "nombre":"viviendas roca 14",
+      "nombre":"Racional Country",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/780",
+      "foto1": "Racional Country.jpg",
+      "foto2": "Racional Country a.JPG",
+      "foto3": "Racional Country a2.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":7
     },
     {
-      "nombre":"viviendas roca 15",
+      "nombre":"Racional Inestable",
       "año":1905,
-      "foto1": "https://picsum.photos/1200/580",
-      "foto2": "https://picsum.photos/1200/780",
-      "foto3": "https://picsum.photos/1200/880",
+      "foto1": "Racional Inestable.jpg",
+      "foto2": "Racional Inestable a.jpg",
+      "foto3": "Racional Inestable a1.jpg",
       "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "destacar": true,
       "id":8
+    },
+    {
+      "nombre":"Racional Ladrillo Hormigón",
+      "año":1905,
+      "foto1": "Racional Ladrillo Hormigón.jpg",
+      "foto2": "Racional Ladrillo Hormigón a.jpg",
+      "foto3": "Racional Ladrillo Hormigón a1.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":9
+    },
+    {
+      "nombre":"Racional México",
+      "año":1905,
+      "foto1": "Racional México.jpg",
+      "foto2": "Racional México 1.jpg",
+      "foto3": "Racional México 14.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":10
+    },
+    {
+      "nombre":"Racional Montaña 2",
+      "año":1905,
+      "foto1": "Racional Montaña 2.jpg",
+      "foto2": "Racional Montaña 2a.jpg",
+      "foto3": "Racional Montaña 2d.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":11
+    },
+    {
+      "nombre":"Racional Montaña Lago",
+      "año":1905,
+      "foto1": "Racional Montaña Lago.jpg",
+      "foto2": "Racional Montaña Lago 1.jpg",
+      "foto3": "Racional Montaña Lago 3.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":12
+    },
+    {
+      "nombre":"Racional Textura",
+      "año":1905,
+      "foto1": "Racional Textura.jpg",
+      "foto2": "Racional Textura a.jpg",
+      "foto3": "Racional Textura a7.jpg",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":13
+    },
+    {
+      "nombre":"Zimmerman",
+      "año":1905,
+      "foto1": "Zimmerman COR 08 2024 A001.jpg",
+      "foto2": "Zimmerman COR 08 2024 HD0096.jpg",
+      "foto3": "",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "destacar": true,
+      "id":14
     }
   ]
 }

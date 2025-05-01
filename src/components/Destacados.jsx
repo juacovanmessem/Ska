@@ -52,7 +52,7 @@ function Destacados() {
                       foto ? (
                         <img
                           key={i}
-                          src={foto}
+                          src={`/imgs/${foto}`}
                           alt={`Foto ${i + 1} del proyecto ${proy.nombre}`}
                           className="img-dest"
                         />
