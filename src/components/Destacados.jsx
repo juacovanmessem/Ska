@@ -43,28 +43,31 @@ function Destacados() {
                   data-bs-parent="#accordionProyectos"
                 >
                 <div className="accordion-body p-5" id={`bg${index+1}`}>
-                    <div>
-                      <p><strong>Titulo:</strong> {proy.nombre || "Sin resumen"}</p>
-                      <p><strong>Estilo:</strong> {proy.estilo || "Sin resumen"}</p>
-                      <p><strong>Resumen:</strong> {proy.resumen || "Sin resumen"}</p>
-                      <p><strong>Descripción:</strong> {proy.descripcion || "Sin descripción"}</p>
-                    </div>
-                    <div>
-                      {[proy.foto1, proy.foto2, proy.foto3].map((foto, i) =>
-                        foto ? (
-                          <img
-                            key={i}
-                            src={foto}
-                            alt={`Foto ${i + 1} del proyecto ${proy.nombre}`}
-                            className="img-dest"
-                          />
-                        ) : null
-                      )}
-                    </div>
+                  <div>
+                    <p><strong>Titulo:</strong> {proy.nombre || "Sin resumen"}</p>
+                    <p><strong>Estilo:</strong> {proy.estilo || "Sin resumen"}</p>
+                    <p><strong>Resumen:</strong> {proy.resumen || "Sin resumen"}</p>
+                    <p><strong>Descripción:</strong> {proy.descripcion || "Sin descripción"}</p>
+                  </div>
+                  <div>
+                    {[proy.foto1, proy.foto2, proy.foto3].map((foto, i) =>
+                      foto ? (
+                        <img
+                          key={i}
+                          src={foto}
+                          alt={`Foto ${i + 1} del proyecto ${proy.nombre}`}
+                          className="img-dest"
+                        />
+                      ) : null
+                    )}
+                  </div>
+                  <div className="d-flex justify-content-end">
+                    <a className="nav-link botones-miniheader btn from-center" href="/proyectos"> VER TODOS LOS PROYECTOS</a>
                   </div>
                 </div>
               </div>
-            ))}
+            </div>
+          ))}
         </div>
       </div>
     </>
