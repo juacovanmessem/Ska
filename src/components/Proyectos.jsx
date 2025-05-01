@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Proyectos.css';
 import database from '../db/database.json';
+import ModalProy from '../components/ModalProy'; 
+import Footer from "../components/Footer"
+import Miniheader from "../components/Miniheader"
 
 function Proyectos() {
   const [proyectos, setProyectos] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const datos = database.proyectos || [];
-    setProyectos(datos);
+    setProyectos(database.proyectos || []);
     setLoading(false);
   }, []);
 
@@ -19,29 +21,25 @@ function Proyectos() {
 
   return (
     <>
-      <h2>Todos los proyectos</h2>
-      <div className='container'>
+      <div className='proy-tittle'>
+        <Miniheader/>
+        <h2>Todos los proyectos</h2>
+      </div>
+      <div className='container my-5'>
         {loading && <div className="masonry-preloader">Cargando...</div>}
         <div className="masonry">
-          {proyectos.map(proyecto =>
-            [proyecto.foto1, proyecto.foto2, proyecto.foto3].map((foto, idx) => {
-              if (!foto) return null;
-              const sizeClass = getRandomSizeClass();
-              return (
-                <figure className={`masonry-brick ${sizeClass}`} key={`${proyecto.id}-${idx}`}>
-                  <img
-                    src={foto}
-                    alt={`${proyecto.nombre} imagen ${idx + 1}`}
-                    className="masonry-img"
-                    decoding="async"
-                    loading="lazy"
-                  />
-                </figure>
-              );
-            })
-          )}
+          {proyectos.map((proyecto, idx) => {
+            if (!proyecto.foto1) return null;
+            const sizeClass = getRandomSizeClass();
+            return (
+              <figure className={`masonry-brick ${sizeClass}`} key={proyecto.id || idx}>
+                <ModalProy proyecto={proyecto} idx={idx} />
+              </figure>
+            );
+          })}
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

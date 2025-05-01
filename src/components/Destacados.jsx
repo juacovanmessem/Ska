@@ -44,9 +44,7 @@ function Destacados() {
                 >
                 <div className="accordion-body p-5" id={`bg${index+1}`}>
                   <div>
-                    <p><strong>Titulo:</strong> {proy.nombre || "Sin resumen"}</p>
-                    <p><strong>Estilo:</strong> {proy.estilo || "Sin resumen"}</p>
-                    <p><strong>Resumen:</strong> {proy.resumen || "Sin resumen"}</p>
+                    <p><strong>Titulo:</strong> {proy.nombre || "Sin titulo"}</p>
                     <p><strong>Descripción:</strong> {proy.descripcion || "Sin descripción"}</p>
                   </div>
                   <div>
