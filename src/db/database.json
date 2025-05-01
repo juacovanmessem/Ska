@@ -13,7 +13,7 @@
       "id":1
     },
     {
-      "nombre":"viviendas roca",
+      "nombre":"viviendas roca 1",
       "año":1901,
       "foto1": "",
       "foto2": "",
@@ -25,7 +25,7 @@
       "id":2
     },
     {
-      "nombre":"viviendas roca",
+      "nombre":"viviendas roca 2",
       "año":1902,
       "foto1": "",
       "foto2": "",
@@ -33,11 +33,11 @@
       "resumen":"",
       "descripcion":"",
       "estilo":"frances",
-      "destacar": true,
+      "destacar": false,
       "id":3
     },
     {
-      "nombre":"viviendas roca",
+      "nombre":"viviendas roca 3",
       "año":1903,
       "foto1": "https://picsum.photos/200",
       "foto2": "https://picsum.photos/200",
@@ -71,6 +71,42 @@
       "estilo":"frances",
       "destacar": true,
       "id":6
+    },
+    {
+      "nombre":"viviendas roca",
+      "año":1905,
+      "foto1": "https://picsum.photos/200",
+      "foto2": "https://picsum.photos/200",
+      "foto3": "https://picsum.photos/200",
+      "resumen":"",
+      "descripcion":"",
+      "estilo":"frances",
+      "destacar": true,
+      "id":7
+    },
+    {
+      "nombre":"viviendas roca",
+      "año":1905,
+      "foto1": "https://picsum.photos/1200/780",
+      "foto2": "https://picsum.photos/1200/780",
+      "foto3": "https://picsum.photos/1200/780",
+      "resumen":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.",
+      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "estilo":"frances",
+      "destacar": true,
+      "id":8
+    },
+    {
+      "nombre":"viviendas roca",
+      "año":1905,
+      "foto1": "https://picsum.photos/200",
+      "foto2": "https://picsum.photos/200",
+      "foto3": "https://picsum.photos/200",
+      "resumen":"",
+      "descripcion":"",
+      "estilo":"frances",
+      "destacar": true,
+      "id":9
     }
   ]
 }

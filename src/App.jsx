@@ -1,31 +1,20 @@
-import Header from "./components/Header.jsx"
-import Frase from "./components/Frase.jsx"
-import Destacados from "./components/Destacados.jsx"
-import SobreMi from "./components/SobreMi.jsx"
-import Footer from "./components/Footer.jsx"
-import Contacto from "./components/Contacto.jsx"
-import Carrusel from "./components/Carrusel.jsx"
-import Proyectos from "./components/Proyectos.jsx"
-import './App.css'
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import ContactoPage from "./pages/ContactoP"
+import ProyectosPage from "./pages/ProyectosP"
+import "./App.css"
 
 function App() {
-
   return (
     <>
-      <div className="tamaño">
-      <Header/>
-      </div>
-      <Frase /> 
-      {/* titulo="hola" frase="hola mundo" autor="pepito" */}
-      <Destacados/>
-      <Frase/>
-      <SobreMi/>
-      <Footer/>
-      <Contacto/>
-      <Carrusel/>
-      <Proyectos/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contacto" element={<ContactoPage />} />
+        <Route path="/proyectos" element={<ProyectosPage />} />
+      </Routes>
     </>
   )
 }
 
 export default App
+

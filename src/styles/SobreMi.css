@@ -153,3 +153,18 @@
   height: 30px;
   background-color: black;
 }
+
+@media (max-width: 748px) {
+  .descrp{
+    width: 100%;
+  }
+  .descrp1{
+    width: 100%;
+  }
+  .fotodescrp1{
+    flex-wrap: wrap-reverse;
+  }
+  .none{
+    display: none;
+  }
+}
