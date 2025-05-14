@@ -51,9 +51,6 @@ function App() {
 
       {userChoice === null ? (
         <div className="welcome-screen">
-          <div className='headerfototitulo fuente-titulo hero-logo'>
-            <img className='img-fluid logo' src={logo} alt="no hay"/>
-          </div>
           <h1>Bienvenido/a a SKA</h1>
           <p>¿Querés acompañar la experiencia con un poco de música?</p>
           <div style={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
