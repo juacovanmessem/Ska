@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import "../styles/Contacto.css"
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import validator from 'validator';
@@ -118,67 +119,82 @@ function Contacto() {
   return (
     <>
       <Miniheader/>
-      <h1 className='pt-5'>contacto</h1>
       <section className='d-flex row g-0 px-5'>
         <div className='p-5 col-12 col-md-6'>
-          <h1>titulo</h1>
-          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate nam, qui beatae nemo in odit? Commodi minus repellendus veniam quia quas numquam natus, eveniet, facere eius ullam blanditiis consectetur. Similique, eos pariatur voluptas, architecto illo incidunt quibusdam ducimus sit, earum commodi nostrum maxime? Dignissimos, adipisci reprehenderit ipsa quas nulla voluptatum veritatis atque quam. Officia aliquid, molestiae libero unde ipsam et. Ullam itaque, et, doloremque aperiam iure molestias aut consequatur inventore similique exercitationem cupiditate neque obcaecati voluptatem tempora. Ex voluptates repellat neque, culpa placeat aspernatur quod deserunt quaerat, quidem nam, vel minima eos sint facere quas quibusdam ipsa eius veritatis officia!</span>
+          <h1>Medios de contacto</h1>
+          <div className="contact-info">
+            <p className='d-flex justify-content-center'><i className="bi bi-facebook"></i> <strong>Facebook:</strong> <a href="https://facebook.com/tuusuario" target="_blank">/tuusuario</a></p>
+            <p className='d-flex justify-content-center'><i className="bi bi-whatsapp"></i> <strong>WhatsApp:</strong> <a href="https://wa.me/tu_numero" target="_blank">+54 9 11 1234-5678</a></p>
+            <p className='d-flex justify-content-center'><i className="bi bi-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tuusuario" target="_blank">/tuusuario</a></p>
+            <p className='d-flex justify-content-center'><i className="bi bi-instagram"></i> <strong>Instagram:</strong> <a href="https://instagram.com/tuusuario" target="_blank">@tuusuario</a></p>
+          </div>
+          <p className="form-invitation">También podés completar el formulario y nos pondremos en contacto contigo en la brevedad.</p>
+
         </div>
-        <div className='p-5 col-12 col-md-6'>
+        <div className='p-5 col-12 col-md-6 contact-form-container'>
+          <h1 className='pb-3'>Formulario de contacto</h1>
           <form ref={formRef} onSubmit={handleSubmit}>
             <div className="form-group">
-              <label className="form-label">Nombre y Apellido</label>
-              <input
-                type="text"
-                name="nombre"
-                value={formData.nombre}
-                onChange={handleChange}
-                className={`form-input ${errors.nombre ? 'is-invalid' : ''}`}
-                required
-              />
+              <div className="input-wrapper">
+                <label className="contact-form-label">Nombre y Apellido</label>
+                <input
+                  type="text"
+                  name="nombre"
+                  value={formData.nombre}
+                  onChange={handleChange}
+                  className={`contact-form-input ${errors.nombre ? 'is-invalid' : ''}`}
+                  required
+                />
+              </div>
               {errors.nombre && <span className="error-text">{errors.nombre}</span>}
             </div>
 
             <div className="form-group">
-              <label className="form-label">Email</label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                className={`form-input ${errors.email ? 'is-invalid' : ''}`}
-                required
-              />
+              <div className="input-wrapper">
+                <label className="contact-form-label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className={`contact-form-input ${errors.email ? 'is-invalid' : ''}`}
+                  required
+                />
+              </div>
               {errors.email && <span className="error-text">{errors.email}</span>}
             </div>
 
             <div className="form-group">
-              <label className="form-label">Teléfono/Celular</label>
-              <input
-                type="tel"
-                name="telefono"
-                value={formData.telefono}
-                onChange={handleChange}
-                className={`form-input ${errors.telefono ? 'is-invalid' : ''}`}
-                required
-              />
+              <div className="input-wrapper">
+                <label className="contact-form-label">Teléfono/Celular</label>
+                <input
+                  type="tel"
+                  name="telefono"
+                  value={formData.telefono}
+                  onChange={handleChange}
+                  className={`contact-form-input ${errors.telefono ? 'is-invalid' : ''}`}
+                  required
+                />
+              </div>
               {errors.telefono && <span className="error-text">{errors.telefono}</span>}
             </div>
 
             <div className="form-group">
-              <label className="form-label">Mensaje</label>
-              <textarea
-                name="mensaje"
-                value={formData.mensaje}
-                onChange={handleChange}
-                className={`form-input ${errors.mensaje ? 'is-invalid' : ''}`}
-                required
-                rows={4}
-              />
+              <div className="input-wrapper">
+                <label className="contact-form-label">Mensaje</label>
+                <textarea
+                  name="mensaje"
+                  value={formData.mensaje}
+                  onChange={handleChange}
+                  className={`contact-form-input ${errors.mensaje ? 'is-invalid' : ''}`}
+                  required
+                  rows={4}
+                />
+              </div>
               {errors.mensaje && <span className="error-text">{errors.mensaje}</span>}
             </div>
 
-            <button type="submit" className="bttn-1">Enviar</button>
+            <button type="submit" className="contact-form-button">Enviar</button>
           </form>
         </div>
       </section>
