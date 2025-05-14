@@ -1,22 +1,12 @@
 {
   "proyectos":[
     {
-      "nombre":"Jardinería Vertical",
-      "año":1900,
-      "foto1": "Jardinería vertical 2024 001.jpg",
-      "foto2": "Jardinería vertical 2024 002.jpg",
-      "foto3": "",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum",
-      "destacar": true,
-      "id":1
-    },
-    {
       "nombre":"John Arany",
       "año":1901,
       "foto1": "John Arany.jpg",
       "foto2": "John Arany a.jpg",
       "foto3": "John Arany a2.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum",
+      "descripcion":"Rodeada de montañas y naturaleza exuberante, esta casa combina robustez y elegancia en su diseño. Construida con muros de piedra oscura y techos verdes a dos aguas, se integra con el paisaje, reflejando la serenidad del entorno. Grandes ventanales dejan escapar una cálida iluminación que resalta la estructura de madera y piedra, mientras los jardines cuidadosamente diseñados conducen a un sendero que rodea un estanque tranquilo. Es un hogar que equilibra lo rústico y lo acogedor, ofreciendo un refugio ideal en armonía con la naturaleza.",
       "destacar": true,
       "id":2
     },
@@ -27,7 +17,7 @@
       "foto1": "Montaña Rústico.jpg",
       "foto2": "Montaña Rústico a.jpg",
       "foto3": "Montaña Rústico a2.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Ubicada en un paisaje montañoso rodeado de bosques, esta casa combina piedra y madera en un diseño que refleja calidez y robustez. Sus amplios ventanales permiten admirar las vistas panorámicas, mientras los balcones y terrazas invitan a disfrutar del aire fresco y el entorno natural. El cuidado jardín, con senderos de piedra que serpentean entre la vegetación, crea una conexión armoniosa con el entorno. Esta vivienda logra un equilibrio perfecto entre lo rústico y lo acogedor, ideal para disfrutar de la tranquilidad de las montañas.",
       "destacar": true,
       "id":3
     },
@@ -38,7 +28,7 @@
       "foto1": "Racional a.jpg",
       "foto2": "Racional a1.jpg",
       "foto3": "Racional a002.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Se alza como un manifiesto de diseño contemporáneo, donde las líneas rectas y las formas geométricas dominan el paisaje. Sus muros oscuros, revestidos en parte por un delicado manto vegetal, dialogan con la serenidad del bosque que la rodea. La casa combina amplios ventanales y terrazas minimalistas que invitan a disfrutar de la naturaleza sin invadirla. La piscina, de bordes simples, refleja el cielo, reforzando la sensación de calma que emana del conjunto. Este diseño logra un equilibrio entre modernidad y sostenibilidad, destacándose como una obra arquitectónica de sobria elegancia.",
       "destacar": true,
       "id":4
     },
@@ -49,7 +39,7 @@
       "foto1": "Racional Americano.jpg",
       "foto2": "Racional Americano a.jpg",
       "foto3": "Racional Americano a6.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Redefine el lujo moderno fusionándolo con un diseño audaz y contemporáneo. Su fachada oscura y geométrica destaca en un entorno boscoso, mientras que las líneas curvas de sus ventanales añaden un toque distintivo y orgánico al diseño. Esta residencia amplifica la conexión interior-exterior mediante grandes superficies de vidrio que permiten que la luz natural invada cada rincón, a la vez que ofrecen vistas privilegiadas de la naturaleza circundante. La piscina, con sus bordes integrados, y los jardines cuidadosamente diseñados, acentúan la sensación de sofisticación y serenidad. Es una expresión de modernidad americana donde la funcionalidad y la estética se encuentran en perfecta armonía.",
       "destacar": true,
       "id":5
     },
@@ -60,7 +50,7 @@
       "foto1": "Racional Contemporaneo Montaña.jpg",
       "foto2": "Racional Contemporaneo Montaña a.jpg",
       "foto3": "Racional Contemporaneo Montaña a6.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Es un ejemplo deslumbrante de diseño arquitectónico que combina la modernidad con el entorno natural montañoso. La estructura se define por líneas limpias, volúmenes flotantes y una paleta de materiales que incluye piedra natural, madera y vidrio, perfectamente integrados con el paisaje. Las amplias terrazas y balcones abiertos hacia las montañas ofrecen vistas panorámicas espectaculares, mientras que las piscinas de borde infinito parecen fundirse con el entorno. Los interiores están inundados de luz natural gracias a los ventanales de piso a techo, que también actúan como un puente visual entre el interior de la casa y el impresionante paisaje exterior. Este diseño logra equilibrar la funcionalidad contemporánea con una estética cálida y acogedora, ideal para quienes buscan una conexión profunda con la naturaleza sin sacrificar el lujo y el estilo moderno.",
       "destacar": true,
       "id":6
     },
@@ -71,7 +61,7 @@
       "foto1": "Racional Country.jpg",
       "foto2": "Racional Country a.JPG",
       "foto3": "Racional Country a2.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Representa una interpretación moderna y funcional de una casa de campo, caracterizada por su diseño geométrico limpio y un enfoque en la integración con el entorno natural. La construcción se compone de volúmenes simples y bien definidos, con amplias ventanas que maximizan la entrada de luz natural y ofrecen vistas despejadas hacia el exterior. El uso de colores claros y techos con pendientes sutiles refleja una estética contemporánea pero adaptada al entorno rural, proporcionando una sensación de amplitud y frescura. El jardín circundante, con flores silvestres y caminos sinuosos, complementa el diseño de la casa al reforzar la conexión con la naturaleza. El espacio interior seguramente está diseñado para un estilo de vida relajado, ofreciendo una mezcla de áreas abiertas para la convivencia familiar y espacios privados. Este tipo de arquitectura combina lo mejor de la modernidad con un ambiente tranquilo y acogedor típico de una casa de campo.",
       "destacar": true,
       "id":7
     },
@@ -81,7 +71,7 @@
       "foto1": "Racional Inestable.jpg",
       "foto2": "Racional Inestable a.jpg",
       "foto3": "Racional Inestable a1.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Se alza entre los árboles como una escultura viviente, desafiando las formas tradicionales y abrazando la libertad del diseño. Sus volúmenes inclinados, como pensamientos en movimiento, emergen del bosque con fuerza poética, mientras las amplias superficies vidriadas reflejan la calma del entorno. La estructura, aparentemente inestable, es en realidad una obra de armonía controlada, donde cada ángulo busca dialogar con el paisaje. La piscina suspendida y los senderos que serpentean sobre el verde tapiz invitan al descanso y la contemplación. Aquí, la arquitectura no solo habita la naturaleza, la celebra.",
       "destacar": true,
       "id":8
     },
@@ -91,7 +81,7 @@
       "foto1": "Racional Ladrillo Hormigón.jpg",
       "foto2": "Racional Ladrillo Hormigón a.jpg",
       "foto3": "Racional Ladrillo Hormigón a1.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Se asienta con fuerza y elegancia en el corazón del bosque, como una declaración serena de permanencia. Aunque su alma está hecha de ladrillo y hormigón, su piel verde la conecta íntimamente con el paisaje que la rodea. Las líneas limpias y los volúmenes bien definidos revelan una arquitectura sólida, mientras que los amplios ventanales permiten que la luz natural abrace cada rincón interior. La piscina se extiende como un espejo tranquilo frente a la casa, invitando al descanso. Es un refugio donde la materia dura se convierte en poesía gracias a su diálogo constante con la naturaleza.",
       "destacar": true,
       "id":9
     },
@@ -101,7 +91,7 @@
       "foto1": "Racional México.jpg",
       "foto2": "Racional México 1.jpg",
       "foto3": "Racional México 14.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Se despliega con serenidad entre los árboles, como una pieza blanca y pura que resalta suavemente en medio del bosque. Sus líneas limpias y volúmenes definidos evocan una elegancia minimalista, mientras que la vegetación trepadora que abraza sus muros suaviza la rigidez del concreto y le otorga un aire íntimo y acogedor. La iluminación cálida al anochecer transforma el espacio en un refugio lleno de calma. Cada rincón está pensado para armonizar con la naturaleza, creando una sensación de hogar que fluye entre lo racional y lo sensible.",
       "destacar": true,
       "id":10
     },
@@ -111,7 +101,7 @@
       "foto1": "Racional Montaña 2.jpg",
       "foto2": "Racional Montaña 2a.jpg",
       "foto3": "Racional Montaña 2d.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Se posa como un refugio noble en el corazón del bosque, donde la madera se funde con la vegetación en una danza de armonía natural. Sus techos inclinados siguen el ritmo de la ladera, y los grandes ventanales abren el interior al silencio verde de los pinos. En esta casa, lo racional se adapta a lo salvaje, dando lugar a una arquitectura que respira el paisaje, sin imponerse. Es un hogar que abraza la montaña, donde cada amanecer es un espectáculo íntimo de luz entre las copas.",
       "destacar": true,
       "id":11
     },
@@ -121,7 +111,7 @@
       "foto1": "Racional Montaña Lago.jpg",
       "foto2": "Racional Montaña Lago 1.jpg",
       "foto3": "Racional Montaña Lago 3.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Es un homenaje a la tierra y al agua, una casa que parece esculpida entre rocas y tejida en madera cálida. Se alza serena sobre la ladera, con la mirada perdida en el horizonte azul del lago. Sus muros de piedra abrazan el paisaje, mientras los ventanales permiten que la luz baile sobre cada rincón. Aquí, la arquitectura no solo habita el entorno: lo contempla, lo respeta, lo celebra. Es un refugio donde el alma encuentra paz en la vastedad de la naturaleza.",
       "destacar": true,
       "id":12
     },
@@ -131,9 +121,19 @@
       "foto1": "Racional Textura.jpg",
       "foto2": "Racional Textura a.jpg",
       "foto3": "Racional Textura a7.jpg",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Es una pieza escultórica incrustada en el paisaje. Sus volúmenes flotantes y líneas puras se integran con la vegetación que trepa por sus muros, creando un vínculo entre tecnología y naturaleza. El diseño juega con el vacío y la materia, invitando a la luz a recorrer cada rincón. Esta casa no solo se adapta al terreno: lo transforma en un lienzo vivo donde la arquitectura cobra sentido. Es refugio y vanguardia al mismo tiempo.",
       "destacar": true,
       "id":13
+    },
+    {
+      "nombre":"Jardinería Vertical",
+      "año":1900,
+      "foto1": "Jardinería vertical 2024 001.jpg",
+      "foto2": "Jardinería vertical 2024 002.jpg",
+      "foto3": "",
+      "descripcion":"En medio de un bosque tranquilo, esta casa se presenta como un ejemplo de diseño integrado con la naturaleza. Los muros cubiertos de hiedra crean una conexión visual con el entorno, mientras los amplios ventanales de madera permiten que la luz natural inunde los interiores, aportando una sensación de calidez y apertura. Los senderos de piedra que conducen a la entrada, junto con las terrazas rodeadas de vegetación, invitan a disfrutar de un espacio que combina modernidad y respeto por el entorno natural. Cada detalle refleja un equilibrio entre diseño contemporáneo y conexión con el paisaje.",
+      "destacar": true,
+      "id":1
     },
     {
       "nombre":"Zimmerman",
@@ -141,7 +141,7 @@
       "foto1": "Zimmerman COR 08 2024 A001.jpg",
       "foto2": "Zimmerman COR 08 2024 HD0096.jpg",
       "foto3": "",
-      "descripcion":"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "descripcion":"Emerge como una sinfonía de concreto, vidrio y naturaleza. Sus volúmenes se anclan con fuerza al terreno montañoso, pero se abren con generosidad al paisaje. La vegetación trepadora suaviza la materia dura, conectando la arquitectura con la tierra que la rodea. Esta casa es un manifiesto de respeto: al entorno, al habitar, al tiempo. En su interior, cada espacio invita al recogimiento, al silencio, a la contemplación.",
       "destacar": true,
       "id":14
     }
